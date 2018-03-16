@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <com.soujarover.zoomtranstest.TouchImageView
+            android:id="@+id/tiv_test"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.soujarover.zoomtranstest.MovingDotsView
+            android:id="@+id/mdv_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black20" />
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="reset" />
+</LinearLayout>
